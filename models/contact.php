@@ -1,20 +1,20 @@
 <?php
 class contact
 {
-    public $contact_id;
-    public $first_name;
-    public $last_name;
+    public $contactId;
+    public $firstName;
+    public $lastName;
     public $email;
     public $birthday;
-    public $contact_of;
+    public $contactOf;
 
-    public function __construct($contact_id, $first_name, $last_name, $email, $birthday, $contact_of)
+    public function __construct($contactId, $firstName, $lastName, $email, $birthday, $contactOf)
     {
-        $this->contact_id = $contact_id;
-        $this->first_name = $first_name;
-        $this->last_name = $last_name;
+        $this->contactId = $contactId;
+        $this->firstName = $firstName;
+        $this->lastName = $lastName;
         $this->email = $email;
         $this->birthday = $birthday;
-        $this->contact_of = $contact_of;
+        $this->contactOf = $contactOf;
     }
 }
